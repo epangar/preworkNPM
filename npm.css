@@ -1,0 +1,187 @@
+body {
+  width: auto 0;
+  height: 100px;
+  font-family: "Open Sans", OpenSans, sans-serif;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 28px;
+  font-weight:300;
+  
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+nav li {
+  width: "20%";
+
+}
+
+.logo {
+    height:70px;
+    padding:10px 10px 20px 10px;
+    line-height: 50px;
+  }
+
+
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  color: rgba(255,255,255,0.8);
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: lighter;
+}
+
+
+h2 {
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+header {
+  background: rgb(32, 101, 136);
+  color: white;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+.search-bar {
+  font-size: 1em;
+  font-weight: 300;
+  color: white;
+  background-color: rgb(31, 82, 111);
+  height: 30px;
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 8px 10px;
+  width: calc(100% - 80px);
+}
+
+.link-btn {
+  
+  color: white;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  border: none; 
+  border-radius: 20px; 
+  padding: 10px;
+  
+}
+
+.orange {
+  background: rgb(240, 146, 51);
+}
+
+.red {
+  background: rgb(203, 56, 55);
+}
+
+.blue {
+  background: rgb(49, 68, 88);
+}
+
+#build {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#sign-up {
+  color: White;
+  background: rgb(39, 53, 71);
+  position:relative;
+
+}
+
+
+.topnav {
+  
+  color: white;
+}
+
+
+
+#install {
+  background-image: url("forklift.svg");
+  background-size: cover;
+  color: rgba(255,255,255,0.8);
+  position: relative;    
+  height: 500px;
+  
+}
+
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+
+#options {
+  color: #3B3D4A;
+  text-align: center;
+}
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+col-4 {
+  width: 25%;
+}
+
+.clearfloat{
+  clear:both;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
+
+
+.no-style-link {
+  text-decoration: none;
+}
+
+#sign-up .no-style-link {
+  color: white;
+}
+
+#options .no-style-link {
+  text-decoration: none;
+  color: red;
+}
+
